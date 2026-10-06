@@ -10,6 +10,10 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: geeksville
       url-base: https://github.com/geeksville
+    - name: urugus
+      url-base: https://github.com/urugus
+    - name: zzeneg
+      url-base: https://github.com/zzeneg
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,5 +24,11 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
+    - name: zmk-module-toucan-studio
+      remote: urugus
+      revision: b6b7256d1d68c053e1402e1bc8b4d2bcaa3158a5
+    - name: zmk-raw-hid
+      remote: zzeneg
+      revision: 6a37765dfab6197292e7a9f47305dcf87386d56a
   self:
     path: config
